@@ -1,0 +1,201 @@
+header {
+    background-image: url(imagens/imagem_fundo.jpg);
+    padding: 70px 0;
+    border-bottom: solid black;
+}
+
+main {
+    background: linear-gradient(white, pink);
+}
+.oi-lolla {
+    text-align: center;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin: 15px 25px 15px 25px;
+}
+.oi-lolla:hover {
+    color: pink;
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.principal{
+    padding: 3em 0;
+}
+
+.caixa-principal{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p{
+    margin:0 0 1em;
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.img-chegada {
+    width: 130px;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 85%;
+    transition: 1s;
+    box-shadow:5px 5px 20px 10px palevioletred  ;
+    
+}
+
+.img-chegada:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+.family{
+    padding: 3em 0;
+}
+
+.family_principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.family_principal p {
+    margin:0 0 1em;
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.img-family {
+    width: 130px;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 85%;
+    transition: 1s;
+    box-shadow:5px 5px 20px 10px palevioletred  ;
+    }
+
+.img-family:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+.fotos {
+    padding: 3em 0;
+    width: 940px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+.img-family-fotos
+{
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 85%;
+    transition: 1s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+}
+
+.img-family-fotos:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.img-principal1{
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 85%;
+    transition: 1s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+    margin-left: 20px;
+}
+
+.img-principal1:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.img-principal2{
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 85%;
+    transition: 1s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+    
+    margin-left: 20px;
+}
+
+.img-principal2:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.img-principal3{
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+    opacity: 85%;
+    transition: 1s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+    margin-left: 20px;
+
+}
+
+.img-principal3:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 480px) {
+    .caixa-principal,.family_principal,.fotos  {
+        width: auto;
+    }
+
+}
+
+
+footer{
+    text-align: center;
+    background: pink;
+    padding: 10px 0;
+}
+
+footer p{
+    color:black;
+    font-size: 18px;
+    margin: 10px;
+}
