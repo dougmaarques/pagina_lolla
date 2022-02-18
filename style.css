@@ -110,7 +110,7 @@ nav a:hover{
 
 
 .fotos {
-    padding: 3em 0;
+    padding: 1em 0;
     width: 940px;
     height: 500px;
     margin: 0 auto;
@@ -198,4 +198,139 @@ footer p{
     color:black;
     font-size: 18px;
     margin: 10px;
+}
+
+/*----------------fotos pagina chegada */
+
+.img-paginachegada{
+    float: left;
+    width: 22%;
+    padding: 10px;
+    margin: 0px 18 10px 0;
+    opacity: 85%;
+    transition: 1.5s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+   }
+
+.img-paginachegada:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+
+.fotos2 {
+    padding: 1em 0;
+    width: 940px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.img-paginachegada2{
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 0px 18 10px 0;
+    opacity: 85%;
+    transition: 1.5s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+   }
+
+.img-paginachegada2:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.fotos3 {
+    padding: 1em 0;
+    width: 940px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.img-paginachegada3{
+    float: left;
+    width: 200px;
+    padding: 8px;
+    margin: 0px 18px 10px 0;
+    opacity: 85%;
+    transition: 1.5s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+   }
+
+.img-paginachegada3:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+/*----------------fotos pagina familia */
+
+.foto4 {
+    padding: 1em 0;
+    width: 940px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.foto5 {
+    padding: 1em 0;
+    width: 940px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.foto6 {
+    padding: 1em 0;
+    width: 940px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+.img-paginafamilia{
+    float: left;
+    width: 250px;
+    padding: 10px;
+    margin: 0px 18 10px 0;
+    opacity: 85%;
+    transition: 1.5s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+   }
+
+ 
+.img-paginafamilia2{
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 0px 18 10px 0;
+    opacity: 85%;
+    transition: 1.5s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+   }
+   
+   
+.img-paginafamilia3{
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 0px 18 10px 0;
+    opacity: 85%;
+    transition: 1.5s;
+    box-shadow:5px 5px 20px 10px palevioletred;
+   }
+
+
+.img-paginafamilia:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.img-paginafamilia2:hover {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+.img-paginafamilia3:hover {
+    opacity: 1;
+    transform: scale(1.5);
+
 }
